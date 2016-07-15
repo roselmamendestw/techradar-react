@@ -1,3 +1,5 @@
+import React from 'react';
+
 var CommentBox = React.createClass({
   render: function() {
     return (
@@ -8,8 +10,4 @@ var CommentBox = React.createClass({
   }
 });
 
-ReactDOM.render(
-  <CommentBox />,
-  document.getElementById('content')
-);
-
+export default CommentBox;
